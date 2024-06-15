@@ -6,4 +6,5 @@ Welcome to the $\mathcal{P}$ vs. $\mathcal{NP}$ project, where I delve into the 
 
 1. [Algorithms by Jeff Erickson](https://jeffe.cs.illinois.edu/teaching/algorithms/)
 2. [Mathematics and Computation by Avi Wigderson](https://www.math.ias.edu/avi/book)
+3. [P versus NP problem : Wiki](https://en.wikipedia.org/wiki/P_versus_NP_problem)
 
