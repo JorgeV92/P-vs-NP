@@ -26,3 +26,37 @@ Overview of the class of probelms know as $\mathcal{NP}$ - $\text{complete}$
 2. [Mathematics and Computation by Avi Wigderson](https://www.math.ias.edu/avi/book)
 3. [P versus NP problem : Wiki](https://en.wikipedia.org/wiki/P_versus_NP_problem)
 
+
+## Outline 
+
+I have outlined the directory structure I hope to follow for now but this is not set in stone as the final design of 
+the project. A possible restructre could occur sometime in the future. For now this is what I will follow.
+
+```bash
+P_vs_NP_Project/
+│
+├── docs/               # Documentation and notes
+│   ├── papers/         # Research papers
+│   ├── books/          # Books and eBooks
+│   └── notes/          # Personal study notes
+│
+├── src/                # Source code
+│   ├── common/         # Common utilities and helper functions
+│   ├── p/              # Code specific to P class problems
+│   ├── np/             # Code specific to NP class problems
+│   └── np_complete/    # Code specific to NP-Complete problems
+│
+├── examples/           # Example problems and their solutions
+│   ├── sat/            # SAT problem examples and reductions
+│   ├── tsp/            # Travelling Salesman problem examples and reductions
+│   └── other/          # Other problems
+│
+├── tests/              # Unit tests and testing frameworks
+│   ├── p_tests/        
+│   ├── np_tests/
+│   └── np_complete_tests/
+│
+└── README.md           # Project overview and setup instructions
+
+```
+
